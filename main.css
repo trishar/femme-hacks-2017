@@ -1,3 +1,14 @@
+/*
+Color scheme:
+Blues: 0C7DF3;
+2A94F5
+
+Peaches: FDAD80
+F1BFAF
+F3957D;
+*/
+
+
 body {
     background-color: #ff87c0;
     background-image: url("http://press.visitphilly.com/uploads/photos/3581_l.jpg");
@@ -178,6 +189,7 @@ input[type=submit]:hover {
     cursor: pointer;
 }
 .button:hover{
-	
     background-color: #0C7DF3;
+    text-decoration: none;
+    color: white;
 }
