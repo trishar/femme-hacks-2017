@@ -1,5 +1,26 @@
 body {
-    background-color: pink;
+    background-color: #ff87c0;
+    background-image: url("http://press.visitphilly.com/uploads/photos/3581_l.jpg");
+    background-position: bottom center;
+}
+
+.bg-1 { 
+    background-color: pink; /* Green */
+    color: #ffffff;
+}
+
+.bg-2 { 
+    background-color: #ff87c0; /* Green */
+    color: #ffffff;
+}
+
+.bg-3 { 
+	background-color: #9d86e8;
+    color: #ffffff;
+}
+.inside {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 input[type=text], select {
@@ -14,7 +35,7 @@ input[type=text], select {
 }
 
 input[type=submit] {
-    background-color: #4CAF50;
+    background-color: #e286e8;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -24,5 +45,5 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #9d86e8;
 }
