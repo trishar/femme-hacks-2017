@@ -1,3 +1,3 @@
 # femme-hacks-2017
 
-Trisha, Catherine
+Trisha, Regina, Evelyn, Catherine
