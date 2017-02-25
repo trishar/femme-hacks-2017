@@ -1,3 +1,6 @@
 function getValue() {
-  var link = document.getElementById("link").value;
+  var val = document.getElementById("link").value;
+  window.location.href = 'page2.html';
+  console.log(window.location.pathname);
+  return val;
 }
