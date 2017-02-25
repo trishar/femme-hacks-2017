@@ -9,9 +9,12 @@ F3957D;
 */
 
 body {
-    background-color: #ff87c0;
-    background-image: url("http://press.visitphilly.com/uploads/photos/3581_l.jpg");
-    background-position: bottom center;
+    
+    background: url("http://www.fullhdwpp.com/wp-content/uploads/Tokyo-Cityscape-at-Sunset_www.FullHDWpp.com_.jpg?x69613") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
     font-family:Raleway;
     font-size: 18px;
 }
@@ -21,16 +24,17 @@ h1{
 }
 
 .bg-1 { 
-    background-color: #F1BFAF; 
+    background-color: black; 
+    color: #ffffff;
 }
 
 .bg-2 { 
-    background-color: #F3957D ;
+    background-color: #f3baec;
     color: #ffffff;
 }
 
 .bg-3 { 
-	background-color: #F3957D;
+	background-color: #f3baec;
 }
 
 #script{
@@ -38,9 +42,12 @@ h1{
   font-size:;
 }
 
-.inside {
+.pad {
+  padding: 12px 20px;
 }
 
+.inside {
+}
 
 
 .inside-full-height {
@@ -192,7 +199,7 @@ input[type=submit]:hover {
 }
 
 .button{
-	background-color: #2A94F5;
+	background-color: #462c17;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -201,7 +208,7 @@ input[type=submit]:hover {
     cursor: pointer;
 }
 .button:hover{
-    background-color: #0C7DF3;
+    background-color: #32265c;
     text-decoration: none;
     color: white;
 }
