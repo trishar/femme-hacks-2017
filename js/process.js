@@ -6,4 +6,16 @@ var txt = '';
     console.log(window.location.pathname);
     txt = val;
   }
-  
+
+  $( document ).ready(function() {
+      console.log( "ready!" );
+      $.ajax({
+      url: "../parsing/parser.py",
+      type: 'POST',
+      data: {val: txt},
+      success: function(data, status){
+        //check status
+        //do something with data
+      }
+    });
+  });
