@@ -5,16 +5,16 @@ body {
 }
 
 .bg-1 { 
-    background-color: #FF4C8C; 
+    /*background-color: #F1BFAF; */
 }
 
 .bg-2 { 
-    background-color: #E839A0;
+    background-color: #FDAD80;
     color: #ffffff;
 }
 
 .bg-3 { 
-	background-color: #FF67E3;
+	background-color: #F3957D ;
     /*color: #ffffff;*/
 }
 .inside {
@@ -155,7 +155,7 @@ input[type=text], select {
 }
 
 input[type=submit] {
-    background-color: #aa8Aff;
+    background-color: #2A94F5;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -165,5 +165,5 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #b086e8;
+    background-color: #0C7DF3;
 }
