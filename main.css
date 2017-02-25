@@ -5,16 +5,16 @@ body {
 }
 
 .bg-1 { 
-    background-color: pink; 
+    background-color: #ff87c0; 
 }
 
 .bg-2 { 
-    background-color: #ff87c0;
+    background-color: #e286e8;
     color: #ffffff;
 }
 
 .bg-3 { 
-	background-color: #9d86e8;
+	background-color: #d7a0ff;
     /*color: #ffffff;*/
 }
 .inside {
@@ -155,7 +155,7 @@ input[type=text], select {
 }
 
 input[type=submit] {
-    background-color: #e286e8;
+    background-color: #aa8Aff;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -165,5 +165,5 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #9d86e8;
+    background-color: #b086e8;
 }
