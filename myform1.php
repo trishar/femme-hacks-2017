@@ -5,7 +5,7 @@ if($_POST['formSubmit'] == "Submit")
 
 	if(empty($_POST['formSubmit']))
 	{
-		$errorMessage .= "<li>You forgot to enter a website!</li>";
+		$errorMessage .= "<li>You forgot to enter a link!</li>";
 	}
 
 	$varLink = $_POST['fname'];
@@ -13,13 +13,12 @@ if($_POST['formSubmit'] == "Submit")
 	if(empty($errorMessage))
 	{
 		$fs = fopen("mydata.csv","a");
-		fwrite($fs,$varName . ", " . $varMovie . "\n");
+		fwrite($fs,$varLink . "\n");
 		fclose($fs);
 
 		header("Location: thankyou.html");
 		exit;
 	}
-
 }
 ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
