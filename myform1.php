@@ -36,7 +36,7 @@ if($_POST['formSubmit'] == "Submit")
 			echo("<ul>" . $errorMessage . "</ul>\n");
 		}
 	?>
-	<form action="myform1.php" method="post">
+	<form action="index.php" method="post">
 		<p>
 			What is your favorite movie?<br>
 			<input type="text" name="formMovie" maxlength="50" value="<?=$varMovie;?>" />
