@@ -16,7 +16,7 @@ for content in textWithTags:
 	noTags += content.text
 
 #get keywords in tuple form
-Rake = RAKE.Rake("/Users/reginalin/Desktop/femmehacks/femme-hacks-2017/parsing/stoplists/SmartStoplist.txt");
+Rake = RAKE.Rake("/Users/reginalin/Desktop/femmehacks/femme-hacks-2017/parsing/SmartStoplist.txt");
 keywords = Rake.run(noTags)
 
 # for pairing in keywords:
