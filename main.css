@@ -1,1 +1,63 @@
+h1{
+	color:purple;
+	font-size:50px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	margin-left: 35%;
+}
 
+h3{
+	color:red;
+	font-size:30px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+img{
+	margin-left: 35%;
+	width: 30%;
+	border-width: 10px;
+	border-style:solid;
+	border-color:indigo;
+}
+
+body {
+    background-color: pink;
+    background-image: url("http://press.visitphilly.com/uploads/photos/3581_l.jpg");
+   	background-repeat: repeat-y;
+   	background-attachment: fixed;
+    background-position: left center;
+}
+
+input[type=text], select {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+#shiny{
+	color: gold;
+}
