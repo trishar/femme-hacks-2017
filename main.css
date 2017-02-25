@@ -8,16 +8,16 @@ F1BFAF
 F3957D;
 */
 
-
 body {
     background-color: #ff87c0;
     background-image: url("http://press.visitphilly.com/uploads/photos/3581_l.jpg");
     background-position: bottom center;
+    font-family:Raleway;
     font-size: 18px;
 }
 
 h1{
-  font-family: 
+  font-family:Raleway;
 }
 
 .bg-1 { 
@@ -25,17 +25,17 @@ h1{
 }
 
 .bg-2 { 
-    background-color: #FDAD80;
+    background-color: #F3957D ;
     color: #ffffff;
 }
 
 .bg-3 { 
-	background-color: #F3957D ;
+	background-color: #F3957D;
     /*color: #ffffff;*/
 }
 
 #script{
-  font-family: ;
+  font-family:Sofia;
   font-size:;
 }
 
