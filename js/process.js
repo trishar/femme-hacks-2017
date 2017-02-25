@@ -1,4 +1,4 @@
 function getValue() {
-  var link = document.getElementById("link");
+  var link = document.getElementById("link").value;
   alert ("link");
 }
