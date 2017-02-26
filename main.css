@@ -1,15 +1,10 @@
 /*
-Color scheme:
-Blues: 0C7DF3;
-2A94F5
-
-Peaches: FDAD80
-F1BFAF
-F3957D;
+#f3baec
+#32265c
 */
 
 body {
-    
+    background-color: black;
     background: url("http://www.fullhdwpp.com/wp-content/uploads/Tokyo-Cityscape-at-Sunset_www.FullHDWpp.com_.jpg?x69613") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -20,7 +15,7 @@ body {
 }
 
 h1{
-  font-family:Raleway, Arial, Helvetica, sans-serif
+  font-family:Raleway, Arial, Helvetica, sans-serif;
 }
 
 .bg-1 { 
@@ -42,6 +37,9 @@ h1{
   font-size:;
 }
 
+#go{
+  color:#f3baec;
+}
 .pad {
   padding: 12px 20px;
 }
