@@ -2,8 +2,6 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-	    <script type="text/javascript" src="js/jquery.js" ></script>      	
-		<script type="text/javascript" src="js/process.js" ></script>	
 		<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
 		<meta content="utf-8" http-equiv="encoding">	
 		<meta charset="UTF-8">
@@ -12,7 +10,7 @@
 		<title>InternshipGO!</title>
 
 		<!--Bootstrap-->
-		<link href="/static/css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	    <!--[if lt IE 9]>
@@ -21,7 +19,7 @@
 	    <![endif]-->
 		<link href= 'http://fonts.googleapis.com/css?family=Sofia' rel='stylesheet' type='text/css'>
 		<link href= 'http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-	    <link href= "/static/main.css" rel="stylesheet">
+	    <link href= "main.css" rel="stylesheet">
 
 		<meta name="description" content="DESCRIBE YOUR WEBSITE">
 		<meta name="keywords" content="KEY, WORDS, HERE">
@@ -51,12 +49,10 @@
 						makes it easy to read internships related to your interests!
 						Enter the link below, and we'll return keywords from the posting.
 						Type in the box below to get started. </h4>
-		    			<form action="/submitUrl" method="post">
-		  					<div id="script"></div> 
-		  					<input type="text" id = "link">
-		  					<br>
+		    			<div class="form-group">
+		  					<div id="script"></div> <input type="text" id = "link"><br>
 		  					<input type="button" value="Search!" onClick= "getValue()" class="button">
-						</form>
+						</div>
 						</div>
 		    		</div>
 		    		<div class="col-sm-4" >
@@ -71,6 +67,9 @@
     	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     	<!-- Include all compiled plugins (below), or include individual files as needed -->
     	<script src="js/bootstrap.min.js"></script>
+    	
+	    <script type="text/javascript" src="js/jquery.js" ></script>      	
+		<script type="text/javascript" src="js/process.js" ></script>	
   	</body>
 </html>
 
